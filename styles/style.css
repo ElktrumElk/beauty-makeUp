@@ -1,0 +1,110 @@
+:root {
+    --primary-border-color: rgb(63, 95, 255);
+}
+
+* {
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+
+body {
+    width: 101dvw;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.main-frame {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    align-items: center;
+    width: 100%;
+    height: 100dvh;
+    background-image: url('../images/background.png');
+    overflow-x: hidden;
+}
+
+.quick_access {
+    width: 90%;
+
+    padding: 1rem 1rem;
+    border-radius: 4rem;
+    background-color: rgb(2, 2, 36);
+    color: white;
+    margin-block-start: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_section {
+    display: flex;
+    gap: .2rem;
+    font-size: 12px;
+}
+
+.logo_image {
+    width: 30px;
+    border-radius: 5rem;
+}
+
+.primary_btns {
+    padding: .4rem 1rem;
+    color: gray;
+    background: transparent;
+    border: 1px solid var(--primary-border-color);
+    border-radius: 4rem;
+    cursor: pointer;
+}
+
+.primary_btns:hover {
+    background-color: rgba(2, 2, 61, 0.37);
+}
+
+.quick_section {
+
+    width: 90%;
+    padding: .3rem 0rem;
+    display: flex;
+    color: gray;
+    gap: 1rem;
+}
+
+.links {
+    color: gray;
+    text-decoration: none;
+    border-bottom: 1px solid var(--primary-border-color);
+    padding: .3rem .2rem;
+
+}
+
+.cover {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.greeting_cnt {
+    /* border: 1px solid red;*/
+}
+
+.b_name {
+    font-size: 6rem;
+    color: rgb(214, 181, 177);
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.theme {
+    font-size: 1.3rem;
+    color: rgb(245, 221, 244);
+}
+
+.beauty_img {
+    width: 400px;
+}
